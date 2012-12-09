@@ -1,0 +1,26 @@
+#include "$name.h"
+
+$name::$name(){
+	
+}
+
+void $name::Initiate(){
+	
+}
+
+void $name::Execute(){
+	
+}
+
+bool $name::IsFinished(){
+	return false;
+}
+
+void $name::End(){
+
+}
+
+void $name::Interrupted(){
+	
+}
+

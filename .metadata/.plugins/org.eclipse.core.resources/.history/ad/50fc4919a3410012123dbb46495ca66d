@@ -1,0 +1,16 @@
+#ifndef $capital
+#define $capital
+#include "Commands/Subsystem.h"
+#include "wpilib.h"
+class $name : public Subsystem{
+private:
+public:
+	$name();
+	$virtualvoid Initiate();
+	$virtualvoid Execute();
+	$virtualbool IsFinished();
+	$virtualvoid End();
+	$virtualvoid Interrupted(); 
+};
+#endif
+

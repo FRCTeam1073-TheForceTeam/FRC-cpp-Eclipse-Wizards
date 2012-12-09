@@ -1,0 +1,16 @@
+#ifndef ${capital}_H
+#define ${capital}_H
+#include "Commands/Subsystem.h"
+#include "wpilib.h"
+class $name : public Subsystem{
+private:
+public:
+	${name}();
+	${virtual}void Initiate();
+	${virtual}void Execute();
+	${virtual}bool IsFinished();
+	${virtual}void End();
+	${virtual}void Interrupted(); 
+};
+#endif
+
