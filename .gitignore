@@ -1,4 +1,5 @@
 *.class
+*.metadata #eclipse nonsense...
 
 # Package Files #
 *.jar
